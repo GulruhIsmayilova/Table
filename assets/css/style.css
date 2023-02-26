@@ -1,0 +1,28 @@
+.table {
+    padding: 90px;
+    width: 850px;
+    border-collapse: collapse;
+
+}
+ .table  table {
+    width: 850px;
+    border-collapse: collapse;
+ }
+ th {
+    text-align: left;
+    height: 40px;
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+ }
+ .table table th,td  {
+    border: 2px solid rgb(200, 179, 219)
+ }
+ tr:nth-child(even) {
+background-color: rgb(226, 213, 238);
+ }
+ tr :hover {
+    background-color: rgb(196, 42, 235);
+ }
+ tr:hover td {
+    text-align: center; 
+ }
